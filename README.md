@@ -5,7 +5,7 @@ Before setting up the project, ensure you have the following installed:
 - Rails 7.1.2
 - PostgreSQL (ensure it's running in the background)
 
-Clowe down this repo and cd into it.
+Clone down this repo and cd into it.
 Install dependencies with the `bundle install` command
 
 Set up your PostgreSQL database with:
