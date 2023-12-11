@@ -9,8 +9,8 @@ Clone down this repo and cd into it.
 Install dependencies with the `bundle install` command
 
 Set up your PostgreSQL database with:
-rails db:create
-rails db:migrate
+`rails db:create`
+`rails db:migrate`
 
 You're ready to run tests now. Since we only have one test for our Item model we can run
 `bundle exec rspec --format documentation` for more descriptive test results. 
