@@ -15,7 +15,7 @@ Set up your PostgreSQL database with:
 You're ready to run tests now. Since we only have one test for our Item model we can run
 `bundle exec rspec --format documentation` for more descriptive test results. 
 
-The soft delete feature in your Ruby on Rails model works like this: instead of completely removing a deleted item from the database, it just marks it with a special timestamp in the deleted_at column. This way, the item is treated as deleted in normal use, but it's still there in the database if you need it. We then use different query filters to either see or ignore these marked items.
+The soft delete feature in your Ruby on Rails model works like this: instead of completely removing a deleted item from the database, we just mark it with a special timestamp in the deleted_at column. This way, the item is treated as deleted in normal use, but it's still there in the database if we need it. We then use different query filters to either see or ignore these marked items.
 
 Let's go line by line and see what the Item model is doing for us.
 
